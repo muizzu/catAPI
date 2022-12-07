@@ -1,0 +1,26 @@
+{
+  "name": "catapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muizzu/catAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muizzu/catAPI/issues"
+  },
+  "homepage": "https://github.com/muizzu/catAPI#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "firebase-admin": "^11.3.0",
+    "nodemon": "^2.0.20"
+  }
+}
