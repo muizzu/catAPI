@@ -30,7 +30,6 @@ app.get('/cats', async (req, res) => {
 
 //filter cat bread
 app.post('/cats/filterBreed/:breed', async (req, res) => {
-  console.log(req.params.breed);
   const catsRef = db.collection('cats');
   const snapshot = await catsRef.where('type', '==', req.params.breed).get();
   if (snapshot.empty) {
